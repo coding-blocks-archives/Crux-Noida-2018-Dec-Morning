@@ -141,6 +141,8 @@ public class Main {
     }
 
     public static void reverse(int[] nums){
-
+        for (int i = 0; i < nums.length/2; i++) {
+            Main.swap(nums, i, nums.length - i - 1);
+        }
     }
 }
