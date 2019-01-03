@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="293bd509-ed35-4ce0-b90b-8206afdf1a5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_8/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_8/Maze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_8/MazeDirections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_8/Queens.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_7/RecReturn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_7/RecReturn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_8/Maze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_8/Maze.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/lecture_8/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_8/Maze.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,37 +31,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="18" />
+          <entry key="java" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="18" />
+          <entry key="JAVA" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6020" />
+          <entry key="java" value="6697" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6020" />
+          <entry key="JAVA" value="6697" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_7/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1342">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_7/RecReturn.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,20 +75,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_8/Maze.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="460">
+              <caret line="75" column="33" lean-forward="true" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/math/BigInteger.java">
+        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_8/MazeDirections.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31680">
-              <caret line="1483" column="22" selection-start-line="1483" selection-start-column="22" selection-end-line="1483" selection-end-column="22" />
+            <state relative-caret-position="150">
+              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="8" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_8/Queens.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -179,6 +180,8 @@
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_7/RecReturn.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_8/Main.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_8/Maze.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_8/MazeDirections.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_8/Queens.java" />
       </list>
     </option>
   </component>
@@ -242,7 +245,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546496637335" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546501444995" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -264,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Maze">
+  <component name="RunManager" selected="Application.MazeDirections">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_8.Main" />
       <module name="Crux-Noida-2018-Dec-Morning" />
@@ -304,12 +307,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecArrayExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_6.RecArrayExamples" />
+    <configuration name="MazeDirections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_8.MazeDirections" />
       <module name="Crux-Noida-2018-Dec-Morning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.lecture_6.*" />
+          <option name="PATTERN" value="com.codingblocks.lecture_8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,19 +334,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RecArrayExamples" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.RecReturn" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Maze" />
+      <item itemvalue="Application.MazeDirections" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MazeDirections" />
         <item itemvalue="Application.Maze" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.RecReturn" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.RecArrayExamples" />
       </list>
     </recent_temporary>
   </component>
@@ -360,6 +363,15 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
@@ -373,15 +385,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5126263" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5037879" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.24242425" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -526,8 +538,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_8/Maze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="460">
+          <caret line="75" column="33" lean-forward="true" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_8/MazeDirections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_8/Queens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
         </state>
       </provider>
     </entry>
