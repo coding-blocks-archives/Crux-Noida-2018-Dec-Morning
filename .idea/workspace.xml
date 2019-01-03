@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="293bd509-ed35-4ce0-b90b-8206afdf1a5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_8/MazeDirections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_8/Queens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_8/Maze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_8/Maze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/lecture_8/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_8/Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/lecture_8/Queens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_8/Queens.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,12 +37,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6697" />
+          <entry key="java" value="6888" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6697" />
+          <entry key="JAVA" value="6888" />
         </counts>
       </usages-collector>
     </session>
@@ -96,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_8/Queens.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            <state relative-caret-position="436">
+              <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -245,7 +241,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546501444995" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546503358592" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -267,26 +263,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MazeDirections">
+  <component name="RunManager" selected="Application.Queens">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_8.Main" />
       <module name="Crux-Noida-2018-Dec-Morning" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.codingblocks.lecture_8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_7.Main" />
-      <module name="Crux-Noida-2018-Dec-Morning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codingblocks.lecture_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,6 +303,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Queens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_8.Queens" />
+      <module name="Crux-Noida-2018-Dec-Morning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingblocks.lecture_8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RecReturn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_7.RecReturn" />
       <module name="Crux-Noida-2018-Dec-Morning" />
@@ -334,19 +330,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.RecReturn" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Maze" />
       <item itemvalue="Application.MazeDirections" />
+      <item itemvalue="Application.Queens" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Queens" />
         <item itemvalue="Application.MazeDirections" />
         <item itemvalue="Application.Maze" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.RecReturn" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -552,8 +548,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_8/Queens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="436">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
         </state>
       </provider>
     </entry>

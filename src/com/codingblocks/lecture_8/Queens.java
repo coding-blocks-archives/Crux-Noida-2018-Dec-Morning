@@ -1,5 +1,7 @@
 package com.codingblocks.lecture_8;
 
+import java.util.Arrays;
+
 public class Queens {
 
     public static void main(String[] args) {
@@ -7,12 +9,13 @@ public class Queens {
 
         boolean[][] board = new boolean[n][n];
 
+        nqueen(board, 0);
 
     }
 
     public static void nqueen(boolean[][] board, int row){
         if (row == board.length){
-            // display(board);
+            display(board);
             return;
         }
 
@@ -23,6 +26,32 @@ public class Queens {
                 board[row][col] = false;
             }
         }
+    }
+
+    public static int nqueenCount(boolean[][] board, int row){
+        if (row == board.length){
+            return 1;
+        }
+
+        int count = 0;
+
+        for (int col = 0; col < board.length; col++) {
+            if (isSafe(board, row, col)){
+                board[row][col] = true;
+                count += nqueenCount(board, row + 1);
+                board[row][col] = false;
+            }
+        }
+
+        return count;
+    }
+
+    private static void display(boolean[][] board) {
+        for (int i = 0; i < board.length; i++) {
+            System.out.println(Arrays.toString(board[i]));
+        }
+
+        System.out.println();
     }
 
     private static boolean isSafe(boolean[][] board, int row, int col) {
