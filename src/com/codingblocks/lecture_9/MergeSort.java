@@ -14,7 +14,8 @@ public class MergeSort {
 
     public static int[] mergesort(int[] nums){
 
-        if (nums.length <= 1){
+        if (nums.length <= 20){
+            //insertionsort(nums);  to make it hybrid sort
             return nums;
         }
 

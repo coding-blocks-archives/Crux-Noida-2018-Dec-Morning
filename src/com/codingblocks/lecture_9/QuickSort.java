@@ -20,15 +20,16 @@ public class QuickSort {
             return;
         }
 
-        int piv = end;
 
-        piv = pivot(nums, start, end, piv);
+        int piv = pivot(nums, start, end);
 
         quick(nums, start, piv - 1);
         quick(nums, piv + 1, end);
     }
 
-    private static int pivot(int[] nums, int start, int end, int piv) {
+    private static int pivot(int[] nums, int start, int end) {
+
+        int piv = end;
 
         int j = start;
 
