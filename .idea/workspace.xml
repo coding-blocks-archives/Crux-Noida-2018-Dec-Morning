@@ -2,28 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="293bd509-ed35-4ce0-b90b-8206afdf1a5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_1/docs/Random.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_10/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_10/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_10/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_10/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_10/StackClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/NitroEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/PetrolEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueCircular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueOptimised.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/WonderCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/BlunderCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_12/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_12/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_12/DynamicQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_12/DynamicStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_12/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_12/ListClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_12/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_12/Maruti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_12/QueueClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_12/StackClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_9/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_9/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_9/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_9/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/lecture_9/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_9/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_1/docs/Random.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_1/docs/Random.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_10/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_10/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_11/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_11/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_11/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_11/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_11/PetrolEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_11/PetrolEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_11/QueueCircular.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_11/QueueCircular.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_11/QueueOptimised.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_11/QueueOptimised.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_11/WonderCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_11/WonderCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/lecture_1/docs/Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_1/docs/Random.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/lecture_10/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_10/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/PetrolEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/PetrolEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueCircular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueCircular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueOptimised.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueOptimised.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/WonderCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_11/WonderCar.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,34 +43,36 @@
     <session id="-1874375693">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.7" value="3" />
-          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="51" />
+          <entry key="class" value="2" />
+          <entry key="java" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="51" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="11994" />
+          <entry key="java" value="13676" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11994" />
+          <entry key="JAVA" value="13676" />
         </counts>
       </usages-collector>
     </session>
@@ -71,29 +80,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/Queue.java">
+        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_12/StackClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="808">
-              <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-              <folding>
-                <element signature="e#387#388#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueOptimised.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-              <folding>
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -101,99 +91,87 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueCircular.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+            <state relative-caret-position="176">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueOptimised.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_12/DynamicQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_12/QueueClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/Car.java">
+        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_12/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="581">
+              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
               <folding>
-                <element signature="e#140#141#0" expanded="true" />
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/Engine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
-              <folding>
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/PetrolEngine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/NitroEngine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-              <folding>
-                <element signature="e#93#94#0" expanded="true" />
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_12/ListClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="330">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/WonderCar.java">
+        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_10/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-              <folding>
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="154">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueClient.java">
+        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_1/docs/Random.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-482">
-              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+            <state relative-caret-position="198">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Hello.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -235,22 +213,34 @@
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_10/Main.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_10/Client.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_10/Human.java" />
-        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_1/docs/Random.java" />
-        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_10/Stack.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_10/StackClient.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Main.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Human.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Pet.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Queue.java" />
-        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueOptimised.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueClient.java" />
-        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueCircular.java" />
-        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Car.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/NitroEngine.java" />
-        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/WonderCar.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Engine.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/PetrolEngine.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/BlunderCar.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Car.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/WonderCar.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Client.java" />
+        <option value="$PROJECT_DIR$/src/Hello.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_12/Maruti.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_12/Car.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_1/docs/Random.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_12/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_12/Audi.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_10/Stack.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_12/DynamicStack.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_12/StackClient.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueOptimised.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueCircular.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_12/DynamicQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_12/QueueClient.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_12/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_12/ListClient.java" />
       </list>
     </option>
   </component>
@@ -264,22 +254,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Crux-Noida-2018-Dec-Morning" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Crux-Noida-2018-Dec-Morning" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="Crux-Noida-2018-Dec-Morning" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Crux-Noida-2018-Dec-Morning" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,30 +278,39 @@
               <item name="Crux-Noida-2018-Dec-Morning" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="codingblocks" type="462c0819:PsiDirectoryNode" />
-              <item name="lecture_9" type="462c0819:PsiDirectoryNode" />
+              <item name="lecture_12" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Crux-Noida-2018-Dec-Morning" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Crux-Noida-2018-Dec-Morning" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
-              <item name="Crux-Noida-2018-Dec-Morning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crux-Noida-2018-Dec-Morning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="codingblocks" type="462c0819:PsiDirectoryNode" />
-              <item name="lecture_11" type="462c0819:PsiDirectoryNode" />
+              <item name="Crux-Noida-2018-Dec-Morning" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Crux-Noida-2018-Dec-Morning" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/anuj/Desktop/Crux-Noida-2018-Dec-Morning/src/com/codingblocks/lecture_10/Client.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547277736670" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547361921637" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.codingblocks.lecture_12" />
       <recent name="com.codingblocks.lecture_11" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -349,7 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.ListClient">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_11.Client" />
       <module name="Crux-Noida-2018-Dec-Morning" />
@@ -363,12 +347,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_10.Client" />
+    <configuration name="ListClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_12.ListClient" />
       <module name="Crux-Noida-2018-Dec-Morning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.lecture_10.*" />
+          <option name="PATTERN" value="com.codingblocks.lecture_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -376,12 +360,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_11.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_12.Main" />
       <module name="Crux-Noida-2018-Dec-Morning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.lecture_11.*" />
+          <option name="PATTERN" value="com.codingblocks.lecture_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,12 +373,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_11.QueueClient" />
+    <configuration name="Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_1.docs.Random" />
       <module name="Crux-Noida-2018-Dec-Morning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.lecture_11.*" />
+          <option name="PATTERN" value="com.codingblocks.lecture_1.docs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -403,11 +387,11 @@
       </method>
     </configuration>
     <configuration name="StackClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_10.StackClient" />
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_12.StackClient" />
       <module name="Crux-Noida-2018-Dec-Morning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.lecture_10.*" />
+          <option name="PATTERN" value="com.codingblocks.lecture_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -416,19 +400,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.StackClient" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.QueueClient" />
       <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Random" />
+      <item itemvalue="Application.StackClient" />
+      <item itemvalue="Application.ListClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.QueueClient" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ListClient" />
         <item itemvalue="Application.StackClient" />
-        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Random" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -458,7 +442,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23294629" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23657474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -472,7 +456,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24242425" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.6111111" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32954547" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32954547" />
@@ -518,63 +502,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_1/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_4/Sorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_4/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="144" column="50" selection-start-line="144" selection-start-column="50" selection-end-line="144" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_5/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_5/ArrayExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_6/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" selection-start-line="19" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_6/RecBasics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_6/RecArrayExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="120" column="23" selection-start-line="120" selection-start-column="23" selection-end-line="120" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_7/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/math/BigInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31680">
@@ -642,10 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32538">
           <caret line="1544" column="15" selection-start-line="1544" selection-start-column="15" selection-end-line="1544" selection-end-column="15" />
-          <folding>
-            <element signature="e#22786#22787#0" expanded="true" />
-            <element signature="e#22821#22822#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_1/docs/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -716,12 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-          <folding>
-            <element signature="e#140#142#0" />
-            <element signature="e#293#327#0" />
-            <element signature="e#472#518#0" />
-            <element signature="e#183#210#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -729,10 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#112#113#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -740,10 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -758,14 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,16 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -793,47 +677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_10/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="46" column="4" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="808">
           <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-          <folding>
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueOptimised.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-          <folding>
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueCircular.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-          <folding>
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -844,36 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/NitroEngine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-          <folding>
-            <element signature="e#93#94#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/PetrolEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -881,30 +702,163 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
-          <folding>
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_11/Client.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_11/Engine.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/PetrolEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/BlunderCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/WonderCar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-          <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="66">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_12/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_12/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_12/Maruti.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_12/Audi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="6" selection-start-line="2" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_12/DynamicStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_12/StackClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueCircular.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueOptimised.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_12/DynamicQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_10/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_1/docs/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_12/QueueClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_12/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_12/ListClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>

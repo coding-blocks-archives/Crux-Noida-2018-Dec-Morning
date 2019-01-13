@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 public class Stack {
 
-    private int[] data;
+    protected int[] data;
+
     private int top;
 
     private final static int DEFAULT_CAPACITY = 10;

@@ -1,6 +1,6 @@
 package com.codingblocks.lecture_11;
 
-public class Car {
+public abstract class Car {
 
     public int windows = 4;
     public int engines = 1;
@@ -12,6 +12,8 @@ public class Car {
     public void stop(){
         System.out.println("Stop like a normal car");
     }
+
+    public abstract void locking();
 
 
 }

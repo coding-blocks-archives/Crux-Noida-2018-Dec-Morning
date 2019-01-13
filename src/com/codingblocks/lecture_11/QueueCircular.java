@@ -1,10 +1,10 @@
 package com.codingblocks.lecture_11;
 
-public class QueueCircular {
+public class QueueCircular extends Queue {
 
-    private int[] data;
-    private int front;
-    private int end;
+    protected int[] data;
+    protected int front;
+    protected int end;
     private int size;
 
 

@@ -1,12 +1,12 @@
 package com.codingblocks.lecture_11;
 
-public class WonderCar extends Car {
+public class BlunderCar extends Car {
 
     public int engines = 2;
 
     public Engine engine;
 
-    public WonderCar(){
+    public BlunderCar(){
         engine = new PetrolEngine();
     }
 
@@ -24,14 +24,10 @@ public class WonderCar extends Car {
 
     @Override
     public void locking() {
-        System.out.println("We are using wonder lock");
+        System.out.println("We are using blunder lock");
     }
 
     public void changeEngine(){
         engine = new PetrolEngine();
-    }
-
-    public void fly(){
-        System.out.println("Udta firu");
     }
 }

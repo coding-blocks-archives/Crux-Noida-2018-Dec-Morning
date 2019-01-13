@@ -1,6 +1,6 @@
 package com.codingblocks.lecture_11;
 
-public class QueueOptimised {
+public class QueueOptimised extends Queue {
 
     private int[] data;
     private int front;
