@@ -7,5 +7,9 @@ public interface Car {
     void brake();
     void steer(String direction);
 
+    void changeSteering(Steering steering);
+    void changeEngine(Engine engine);
+    void changBrake(Brake brake);
+
 
 }

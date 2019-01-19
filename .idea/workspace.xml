@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="293bd509-ed35-4ce0-b90b-8206afdf1a5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_13/ABSBrake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_13/Brake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_13/NormalSteering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_13/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/codingblocks/lecture_13/Audi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_13/Audi.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,25 +30,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="85" />
+          <entry key="java" value="86" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="85" />
+          <entry key="JAVA" value="86" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="15491" />
+          <entry key="java" value="15568" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15491" />
+          <entry key="JAVA" value="15568" />
         </counts>
       </usages-collector>
     </session>
@@ -65,15 +63,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_13/Engine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -102,11 +91,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_13/Audi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="466">
+              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+              <folding>
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_13/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -185,7 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_7/RecReturn.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_8/Main.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_8/Maze.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_8/MazeDirections.java" />
@@ -236,6 +243,7 @@
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_13/ABSBrake.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_13/Car.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_13/Audi.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_13/Client.java" />
       </list>
     </option>
   </component>
@@ -307,7 +315,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/anuj/Desktop/Crux-Noida-2018-Dec-Morning/src/com/codingblocks/lecture_10/Client.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547872880019" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547875683247" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -336,13 +344,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="ListClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_12.ListClient" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_13.Client" />
       <module name="Crux-Noida-2018-Dec-Morning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codingblocks.lecture_12.*" />
+          <option name="PATTERN" value="com.codingblocks.lecture_13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,8 +358,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_12.Main" />
+    <configuration name="ListClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_12.ListClient" />
       <module name="Crux-Noida-2018-Dec-Morning" />
       <extension name="coverage">
         <pattern>
@@ -403,19 +411,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Random" />
       <item itemvalue="Application.StackClient" />
       <item itemvalue="Application.ListClient" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ListClient" />
         <item itemvalue="Application.StackClient" />
         <item itemvalue="Application.Random" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -505,13 +513,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_10/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_10/Human.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -871,8 +872,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_13/Audi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="466">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding>
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_13/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
