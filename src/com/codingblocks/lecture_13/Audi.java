@@ -6,6 +6,18 @@ public class Audi implements Car {
     private Steering steering;
     private Brake brake;
 
+    public void setEngine(Engine engine) {
+        this.engine = engine;
+    }
+
+    public void setSteering(Steering steering) {
+        this.steering = steering;
+    }
+
+    public void setBrake(Brake brake) {
+        this.brake = brake;
+    }
+
     public Audi(Engine engine, Steering steering, Brake brake) {
         this.engine = engine;
         this.steering = steering;
