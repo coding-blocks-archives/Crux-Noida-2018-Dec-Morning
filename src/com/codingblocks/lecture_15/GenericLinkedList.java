@@ -1,12 +1,12 @@
 package com.codingblocks.lecture_15;
 
-public class LinkedList {
+public class GenericLinkedList<T extends Comparable<T>> {
 
     private Node head;
     private Node tail;
     private int size;
 
-    public void insertFirst(String value){
+    public void insertFirst(T value){
         Node node = new Node(value, head);
         head = node;
 
@@ -17,7 +17,7 @@ public class LinkedList {
         size++;
     }
 
-    public void insertLast(String value){
+    public void insertLast(T value){
         // insert last is same to insert first for size 0
         if (size == 0){
             insertFirst(value);
@@ -37,13 +37,13 @@ public class LinkedList {
 
     }
 
-    public String deleteFirst(){
+    public T deleteFirst(){
         if (size == 0){
             return null;
         }
 
         // save value to be ret
-        String value = head.value;
+        T value = head.value;
 
         // delete the item
         head = head.next;
@@ -58,7 +58,7 @@ public class LinkedList {
         return value;
     }
 
-    public String deleteLast(){
+    public T deleteLast(){
         if (size < 2){
             return deleteFirst();
         }
@@ -69,7 +69,7 @@ public class LinkedList {
             node = node.next;
         }
 
-        String value = node.next.value;
+        T value = node.next.value;
 
         node.next = null;
         tail = node;
@@ -90,7 +90,7 @@ public class LinkedList {
         return node;
     }
 
-    public void insert(String value, int index){
+    public void insert(T value, int index){
         if(index == 0){
             insertFirst(value);
             return;
@@ -110,7 +110,7 @@ public class LinkedList {
 
     }
 
-    public String delete(int index){
+    public T delete(int index){
         if (index == 0){
             return deleteFirst();
         }
@@ -121,7 +121,7 @@ public class LinkedList {
 
         Node prev = get(index - 1);
 
-        String value = prev.next.value;
+        T value = prev.next.value;
 
         prev.next = prev.next.next;
 
@@ -185,15 +185,44 @@ public class LinkedList {
 
     }
 
+    public GenericLinkedList<T> merge(GenericLinkedList<T> second){
+        GenericLinkedList<T> list = new GenericLinkedList<>();
+
+        Node f_node = this.head;
+        Node s_node = second.head;
+
+        while (f_node != null && s_node != null){
+            if (f_node.value.compareTo(s_node.value) < 0){
+                list.insertLast(f_node.value);
+                f_node = f_node.next;
+            } else {
+                list.insertLast(s_node.value);
+                s_node = s_node.next;
+            }
+        }
+
+        while (f_node != null){
+            list.insertLast(f_node.value);
+            f_node = f_node.next;
+        }
+
+        while (s_node != null){
+            list.insertLast(s_node.value);
+            s_node = s_node.next;
+        }
+
+        return list;
+    }
+
     private class Node {
-        private String value;
+        private T value;
         private Node next;
 
-        public Node(String value) {
+        public Node(T value) {
             this.value = value;
         }
 
-        public Node(String value, Node next) {
+        public Node(T value, Node next) {
             this.value = value;
             this.next = next;
         }

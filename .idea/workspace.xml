@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="293bd509-ed35-4ce0-b90b-8206afdf1a5c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_15/GenericLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_15/LinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_15/LinkedList$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_15/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_15/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_15/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_15/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/lecture_15/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_15/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/lecture_15/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_15/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,25 +37,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="118" />
+          <entry key="java" value="121" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="118" />
+          <entry key="JAVA" value="121" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="19999" />
+          <entry key="java" value="20665" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="19999" />
+          <entry key="JAVA" value="20665" />
         </counts>
       </usages-collector>
     </session>
@@ -71,17 +77,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_15/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="397">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="1152" column="15" selection-start-line="1152" selection-start-column="15" selection-end-line="1152" selection-end-column="15" />
+              <folding>
+                <element signature="e#55800#55801#0" expanded="true" />
+                <element signature="e#55844#55845#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_15/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+            <state relative-caret-position="-58">
+              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
               <folding>
                 <element signature="e#2527#2528#0" expanded="true" />
                 <element signature="e#2569#2570#0" expanded="true" />
@@ -90,38 +118,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_15/GenericLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="951">
+              <caret line="213" column="20" selection-start-line="213" selection-start-column="20" selection-end-line="213" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_7/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-359">
+            <state relative-caret-position="-274">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_6/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_6/RecArrayExamples.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2090">
-              <caret line="95" selection-start-line="95" selection-end-line="108" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93940">
-              <caret line="4357" column="33" selection-start-line="4357" selection-start-column="33" selection-end-line="4357" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -171,7 +181,11 @@
     <findStrings>
       <find>file</find>
       <find>isE</find>
+      <find>String</find>
     </findStrings>
+    <replaceStrings>
+      <replace>T</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -179,7 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Human.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Pet.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/Queue.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueClient.java" />
@@ -228,8 +241,9 @@
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_13/QueueUsingStackDelete.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_14/Main.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_14/extras/sheet.txt" />
-        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_15/Main.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_15/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_15/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_15/GenericLinkedList.java" />
       </list>
     </option>
   </component>
@@ -294,11 +308,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/anuj/Desktop/Crux-Noida-2018-Dec-Morning/src/com/codingblocks/lecture_10/Client.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549082734604" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549087267253" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.codingblocks.lecture_15" />
       <recent name="com.codingblocks.lecture_13" />
       <recent name="com.codingblocks.lecture_12" />
       <recent name="com.codingblocks.lecture_11" />
@@ -430,8 +445,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.30893117" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.30673498" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -445,7 +461,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.6098191" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.6098191" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32945737" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32954547" />
@@ -490,21 +506,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/codingblocks/lecture_15/GenericLinkedList.java</url>
+          <line>190</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueOptimised.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_12/DynamicQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_12/QueueClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -754,17 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29700">
-          <caret line="1409" column="23" selection-start-line="1409" selection-start-column="13" selection-end-line="1409" selection-end-column="23" />
-          <folding>
-            <element signature="e#55800#55801#0" expanded="true" />
-            <element signature="e#55844#55845#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_6/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -818,13 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_15/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_14/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -835,21 +831,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_7/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-359">
+        <state relative-caret-position="-274">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_15/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+        <state relative-caret-position="-58">
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
           <folding>
             <element signature="e#2527#2528#0" expanded="true" />
             <element signature="e#2569#2570#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="1152" column="15" selection-start-line="1152" selection-start-column="15" selection-end-line="1152" selection-end-column="15" />
+          <folding>
+            <element signature="e#55800#55801#0" expanded="true" />
+            <element signature="e#55844#55845#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_15/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_15/GenericLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="951">
+          <caret line="213" column="20" selection-start-line="213" selection-start-column="20" selection-end-line="213" selection-end-column="20" />
         </state>
       </provider>
     </entry>
