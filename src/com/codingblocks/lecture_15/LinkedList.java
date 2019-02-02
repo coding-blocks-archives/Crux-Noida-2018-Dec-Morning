@@ -111,7 +111,7 @@ public class LinkedList {
     }
 
     public String delete(int index){
-        if (index < 2){
+        if (index == 0){
             return deleteFirst();
         }
 
