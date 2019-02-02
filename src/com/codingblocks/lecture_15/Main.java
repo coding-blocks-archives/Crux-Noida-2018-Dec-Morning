@@ -8,6 +8,8 @@ public class Main {
         list.insertFirst("Mohini");
         list.insertFirst("Shobhit");
 
+        list.insertLast("Mani Shankar");
+
         list.display();
 
     }
