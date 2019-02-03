@@ -1,5 +1,7 @@
 package com.codingblocks.lecture_15;
 
+import java.util.Stack;
+
 public class GenericLinkedList<T extends Comparable<T>> {
 
     private Node head;
@@ -212,6 +214,66 @@ public class GenericLinkedList<T extends Comparable<T>> {
         }
 
         return list;
+    }
+
+
+    public void kreverse(int k){
+
+        GenericLinkedList<T> temp = new GenericLinkedList<>();
+
+        Node node = head;
+
+        Stack<Node> stack = new Stack<>();
+
+        while (node != null) {
+
+            for (int i = 0; i < k && node != null; i++) {
+                stack.push(node);
+                node = node.next;
+            }
+
+            while (!stack.empty()){
+                Node top = stack.pop();
+//
+//                if (t_head == null){
+//                    t_head = top;
+//                    t_tail = top;
+//                } else {
+//                    t_tail.next = top;
+//                    t_tail = top;
+//                }
+//
+//                t_tail.next = null;
+                temp.insertLast(top.value);
+            }
+
+            head = temp.head;
+            tail = temp.tail;
+
+        }
+
+
+    }
+
+    public void bubble(){
+
+        if (size < 2){
+            return;
+        }
+
+        for (int i = 0; i < size; i++) {
+            Node node = head;
+
+            for (int j = 0; j < size - i - 1; j++){
+                if (node.value.compareTo(node.next.value) > 0){
+                    T value = node.value;
+                    node.value = node.next.value;
+                    node.next.value = value;
+                }
+
+                node = node.next;
+            }
+        }
     }
 
     private class Node {
