@@ -5,41 +5,9 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class BinaryTree {
+public class BinaryTreeGeneric <T extends Comparable<T>>  {
 
     private Node root;
-
-    public void generate(){
-        Scanner s = new Scanner("10 true 7 true 3 false false true 8 false false true 13 false false");
-        System.out.print("Enter root node :");
-        int value = s.nextInt();
-
-        root = new Node(value);
-
-        generate(root, s);
-    }
-
-    private void generate(Node node, Scanner s){
-        System.out.print("Do you want to add left of " + node.value);
-        boolean left = s.nextBoolean();
-
-        if (left){
-            System.out.print("Enter left node  of " + node.value);
-            int value = s.nextInt();
-            node.left = new Node(value);
-            generate(node.left, s);
-        }
-
-        System.out.print("Do you want to add right of " + node.value);
-        boolean right = s.nextBoolean();
-
-        if (right){
-            System.out.print("Enter right node  of " + node.value);
-            int value = s.nextInt();
-            node.right = new Node(value);
-            generate(node.right, s);
-        }
-    }
 
     public void display(){
         display(root, "", "root");
@@ -146,26 +114,26 @@ public class BinaryTree {
         }
     }
 
-    public void genPreIn(int[] pre, int[] in){
+    public void genPreIn(T[] pre, T[] in){
         root = genPreInRec(pre, in);
     }
 
-    private Node genPreInRec(int[] pre, int[] in) {
+    private Node genPreInRec(T[] pre, T[] in) {
         if (pre.length == 0){
             return null;
         }
 
-        int r = pre[0];
+        T r = pre[0];
 
         int index = linear(in, r);
 
         Node node = new Node(r);
 
-        int[] pre_left = Arrays.copyOfRange(pre, 1, index + 1);
-        int[] pre_right = Arrays.copyOfRange(pre, index + 1, pre.length);
+        T[] pre_left = Arrays.copyOfRange(pre, 1, index + 1);
+        T[] pre_right = Arrays.copyOfRange(pre, index + 1, pre.length);
 
-        int[] in_left = Arrays.copyOfRange(in, 0, index);
-        int[] in_right = Arrays.copyOfRange(in, index + 1, in.length);
+        T[] in_left = Arrays.copyOfRange(in, 0, index);
+        T[] in_right = Arrays.copyOfRange(in, index + 1, in.length);
 
         node.left = genPreInRec(pre_left, in_left);
         node.right = genPreInRec(pre_right, in_right);
@@ -174,9 +142,9 @@ public class BinaryTree {
 
     }
 
-    private int linear(int[] nums, int value){
+    private int linear(T[] nums, T value){
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == value){
+            if (nums[i].equals(value)){
                 return i;
             }
         }
@@ -185,11 +153,11 @@ public class BinaryTree {
     }
 
     private class Node {
-        private int value;
+        private T value;
         private Node left;
         private Node right;
 
-        public Node(int value) {
+        public Node(T value) {
             this.value = value;
         }
     }
