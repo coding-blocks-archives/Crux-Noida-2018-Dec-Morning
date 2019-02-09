@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class BinaryTreeGeneric <T extends Comparable<T>>  {
 
-    private Node root;
+    protected Node root;
 
     public void display(){
         display(root, "", "root");

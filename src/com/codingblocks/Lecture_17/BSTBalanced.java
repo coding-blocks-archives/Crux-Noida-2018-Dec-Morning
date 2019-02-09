@@ -1,8 +1,6 @@
 package com.codingblocks.Lecture_17;
 
-import com.codingblocks.lecture_16.BinaryTreeGeneric;
-
-public class BST <T extends Comparable<T>> {
+public class BSTBalanced<T extends Comparable<T>> {
 
 
     private Node root;
@@ -25,10 +23,27 @@ public class BST <T extends Comparable<T>> {
             node.right = add(value, node.right);
         }
 
+        node.height = Math.max(height(node.left), height(node.right)) + 1;
 
         // balancing code
 
         return node;
+    }
+
+    public boolean balanced(){
+        return balanced(root);
+    }
+
+    private boolean balanced(Node node) {
+        if (node == null){
+            return true;
+        }
+
+        if(Math.abs(height(node.left) - height(node.right)) > 1){
+            return false;
+        }
+
+        return balanced(node.left) && balanced(node.right);
     }
 
     public void generate(T[] values){
@@ -137,13 +152,38 @@ public class BST <T extends Comparable<T>> {
         }
     }
 
+    private int height(Node node){
+        if (node == null){
+            return 0;
+        }
+
+        return node.height;
+    }
+
+    private Node rightRotation(Node x){
+        Node y = x.left;
+        Node T2 = y.right;
+
+
+    }
+
+    private Node leftRotation(Node y){
+        Node x = y.right;
+        Node T2 = x.left;
+
+
+    }
+
     private class Node {
         private T value;
         private Node left;
         private Node right;
 
+        private int height;
+
         public Node(T value) {
             this.value = value;
+            this.height = 1;
         }
     }
 

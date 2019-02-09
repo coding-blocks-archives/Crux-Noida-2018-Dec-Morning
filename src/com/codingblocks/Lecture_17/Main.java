@@ -4,11 +4,12 @@ public class Main {
     public static void main(String[] args) {
         BST<Integer> bst = new BST<>();
 
-        bst.add(5);
-        bst.add(3);
-        bst.add(7);
-        bst.add(6);
+        Integer[] values = {1, 2, 3, 4, 5, 6,7};
 
-        bst.display();
+        bst.generate(values);
+
+        bst.range(6, 6);
+
+
     }
 }
