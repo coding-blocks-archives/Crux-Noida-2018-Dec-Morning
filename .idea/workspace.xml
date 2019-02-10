@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="293bd509-ed35-4ce0-b90b-8206afdf1a5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_18/HTArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_18/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_18/HashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_18/MapExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_18/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Crux-Noida-2018-Dec-Morning/com/codingblocks/lecture_18/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/lecture_18/HTLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_18/HTLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/lecture_18/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_18/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,25 +34,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="138" />
+          <entry key="java" value="140" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="138" />
+          <entry key="JAVA" value="140" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="26699" />
+          <entry key="java" value="27045" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="26699" />
+          <entry key="JAVA" value="27045" />
         </counts>
       </usages-collector>
     </session>
@@ -114,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_18/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="195">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -126,10 +123,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_18/HashTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="-578">
+              <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_18/MapExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_18/HashSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="928">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="32" />
+              <folding>
+                <element signature="e#2307#2308#0" expanded="true" />
+                <element signature="e#2345#2346#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,28 +188,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1892">
-              <caret line="109" column="5" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1298">
-              <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
-              <folding>
-                <element signature="e#20484#20485#0" expanded="true" />
-                <element signature="e#20520#20521#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -216,8 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_12/Audi.java" />
-        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_12/DynamicStack.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_12/StackClient.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueOptimised.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_11/QueueCircular.java" />
@@ -265,8 +263,10 @@
         <option value="$PROJECT_DIR$/src/com/codingblocks/Lecture_17/BSTBalanced.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_18/HTLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_18/HTArrayList.java" />
-        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_18/HashTable.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_18/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_18/HashTable.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_18/MapExample.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_18/HashSet.java" />
       </list>
     </option>
   </component>
@@ -316,16 +316,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/anuj/Desktop/Crux-Noida-2018-Dec-Morning/src/com/codingblocks/lecture_10/Client.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549778198205" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549779955805" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.codingblocks.lecture_18" />
       <recent name="com.codingblocks.Lecture_17" />
       <recent name="com.codingblocks.lecture_16" />
       <recent name="com.codingblocks.lecture_15" />
       <recent name="com.codingblocks.lecture_13" />
-      <recent name="com.codingblocks.lecture_12" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/codingblocks/lecture_14/extras" />
@@ -347,20 +347,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_14.Main" />
-      <module name="Crux-Noida-2018-Dec-Morning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codingblocks.lecture_14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MapExample">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_15.Main" />
       <module name="Crux-Noida-2018-Dec-Morning" />
@@ -400,6 +387,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_18.MapExample" />
+      <module name="Crux-Noida-2018-Dec-Morning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingblocks.lecture_18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Mian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codingblocks.lecture_16.Mian" />
       <module name="Crux-Noida-2018-Dec-Morning" />
@@ -414,19 +414,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Mian" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.MapExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapExample" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Mian" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -465,7 +465,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.69250643" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52067184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39793283" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -500,20 +500,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/FileNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="42" column="48" lean-forward="true" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/IOException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Exception.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -884,20 +870,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_18/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_18/HashTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="-578">
+          <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_18/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_18/MapExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="412">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_18/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="32" />
+          <folding>
+            <element signature="e#2307#2308#0" expanded="true" />
+            <element signature="e#2345#2346#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
