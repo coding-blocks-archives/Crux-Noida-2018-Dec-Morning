@@ -27,7 +27,38 @@ public class BSTBalanced<T extends Comparable<T>> {
 
         // balancing code
 
+        node = balance(node);
+
         return node;
+    }
+
+    private Node balance(Node node){
+
+        if (height(node.left) - height(node.right) > 1){
+
+            if (height(node.left.left) - height(node.left.right) >= 0){
+                return rightRotation(node);
+            } else {
+                node.left = leftRotation(node.left);
+                return rightRotation(node);
+            }
+
+        } else if(height(node.left) - height(node.right) < -1){
+
+            if (height(node.right.left) - height(node.right.right) <= 0){
+                return leftRotation(node);
+            } else {
+                node.right = rightRotation(node.right);
+                return leftRotation(node);
+            }
+        }
+
+        return node;
+
+    }
+
+    public int height(){
+        return height(root);
     }
 
     public boolean balanced(){
@@ -61,6 +92,7 @@ public class BSTBalanced<T extends Comparable<T>> {
 
         node.left = generate(values, start, mid);
         node.right = generate(values, mid + 1, end);
+
 
         return node;
     }
@@ -160,10 +192,27 @@ public class BSTBalanced<T extends Comparable<T>> {
         return node.height;
     }
 
+    public void rightRotation(){
+        this.root = rightRotation(root);
+    }
+
+
+    public void leftRotation(){
+        this.root = leftRotation(root);
+    }
+
+
     private Node rightRotation(Node x){
         Node y = x.left;
         Node T2 = y.right;
 
+        y.right = x;
+        x.left = T2;
+
+        x.height = Math.max(height(x.left), height(x.right)) + 1;
+        y.height = Math.max(height(y.left), height(y.right)) + 1;
+
+        return y;
 
     }
 
@@ -171,6 +220,13 @@ public class BSTBalanced<T extends Comparable<T>> {
         Node x = y.right;
         Node T2 = x.left;
 
+        x.left = y;
+        y.right = T2;
+
+        y.height = Math.max(height(y.left), height(y.right)) + 1;
+        x.height = Math.max(height(x.left), height(x.right)) + 1;
+
+        return x;
 
     }
 
