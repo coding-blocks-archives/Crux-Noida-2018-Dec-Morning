@@ -11,6 +11,7 @@ public class HTLinkedList <K, V> {
         for(Node node : list){
             if (node.key.equals(key)){
                 node.value = value;
+                return;
             }
         }
 
