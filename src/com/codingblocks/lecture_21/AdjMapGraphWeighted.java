@@ -152,6 +152,36 @@ public class AdjMapGraphWeighted<T> {
         return -1;
     }
 
+    private Map<Vertex, Vertex> generateParents(){
+        HashMap<Vertex, Vertex> parents = new HashMap<>();
+
+        for (Vertex vertex : vertexHashMap.values()) {
+            parents.put(vertex, null);
+        }
+
+        return parents;
+    }
+
+    private boolean union(Vertex first, Vertex second, Map<Vertex, Vertex> parents){
+        Vertex p_first = find(first, parents);
+        Vertex p_second= find(second, parents);
+
+        if (p_first == p_second){
+            return false;
+        }
+
+        parents.put(p_first, p_second);
+        return true;
+    }
+
+    private Vertex find(Vertex vertex, Map<Vertex, Vertex> parents){
+        while (parents.get(vertex) != null){
+            vertex = parents.get(vertex);
+        }
+
+        return vertex;
+    }
+
     private class Vertex {
         private T value;
         private HashMap<T, Vertex> neighbours;
@@ -167,7 +197,18 @@ public class AdjMapGraphWeighted<T> {
             weights.put(padosi.value, weight);
         }
 
+    }
 
+    private class Edge{
+        private Vertex first;
+        private Vertex second;
+        private int weight;
+
+        public Edge(Vertex first, Vertex second, int weight) {
+            this.first = first;
+            this.second = second;
+            this.weight = weight;
+        }
     }
 
 }
