@@ -182,6 +182,61 @@ public class AdjMapGraphWeighted<T> {
         return vertex;
     }
 
+    public AdjMapGraphWeighted<T> mstGraph(){
+
+        AdjMapGraphWeighted<T> graph = new AdjMapGraphWeighted<>();
+
+        for (T value : vertexHashMap.keySet()) {
+            graph.addVertex(value);
+        }
+
+        ArrayList<Edge> edges = new ArrayList<>();
+
+        for (Vertex vertex : vertexHashMap.values()) {
+            for (Vertex padosi : vertex.neighbours.values()) {
+                int weight = vertex.weights.get(padosi.value);
+                Edge e = new Edge(vertex, padosi, weight);
+            }
+        }
+
+        Collections.sort(edges);
+
+        Map<Vertex, Vertex> parents = generateParents();
+
+        for (Edge edge : edges) {
+            if (union(edge.first, edge.second, parents)){
+                graph.addEdge(edge.first.value, edge.second.value, edge.weight);
+            }
+        }
+
+        return graph;
+    }
+
+    public int mst(){
+        ArrayList<Edge> edges = new ArrayList<>();
+
+        for (Vertex vertex : vertexHashMap.values()) {
+            for (Vertex padosi : vertex.neighbours.values()) {
+                int weight = vertex.weights.get(padosi.value);
+                Edge e = new Edge(vertex, padosi, weight);
+            }
+        }
+
+        Collections.sort(edges);
+
+        int mst_weight = 0;
+
+        Map<Vertex, Vertex> parents = generateParents();
+
+        for (Edge edge : edges) {
+            if (union(edge.first, edge.second, parents)){
+                mst_weight += edge.weight;
+            }
+        }
+
+        return mst_weight;
+    }
+
     private class Vertex {
         private T value;
         private HashMap<T, Vertex> neighbours;
@@ -199,7 +254,7 @@ public class AdjMapGraphWeighted<T> {
 
     }
 
-    private class Edge{
+    private class Edge implements Comparable<Edge>{
         private Vertex first;
         private Vertex second;
         private int weight;
@@ -208,6 +263,11 @@ public class AdjMapGraphWeighted<T> {
             this.first = first;
             this.second = second;
             this.weight = weight;
+        }
+
+        @Override
+        public int compareTo(Edge o) {
+            return this.weight - o.weight;
         }
     }
 
