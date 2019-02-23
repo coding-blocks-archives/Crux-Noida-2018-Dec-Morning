@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="293bd509-ed35-4ce0-b90b-8206afdf1a5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_21/AdjMapGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_21/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_21/AdjMapGraphWeighted.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingblocks/lecture_20/AdjListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingblocks/lecture_20/AdjListGraph.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,49 +35,36 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="157" />
+          <entry key="java" value="158" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="157" />
+          <entry key="JAVA" value="158" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="29785" />
+          <entry key="java" value="29917" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="29785" />
+          <entry key="JAVA" value="29917" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_21/AdjMapGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="77" column="31" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
-              <folding>
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_21/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_21/AdjMapGraphWeighted.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="-794">
+              <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -112,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_13/PetrolEngine.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_13/Steering.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_13/PowerSteering.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_13/NiormalSteering.java" />
@@ -161,8 +145,9 @@
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_20/EdgeListGraph.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_20/GraphClient.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_20/AdjListGraph.java" />
-        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_21/AdjMapGraph.java" />
         <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_21/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_21/AdjMapGraph.java" />
+        <option value="$PROJECT_DIR$/src/com/codingblocks/lecture_21/AdjMapGraphWeighted.java" />
       </list>
     </option>
   </component>
@@ -212,16 +197,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/anuj/Desktop/Crux-Noida-2018-Dec-Morning/src/com/codingblocks/lecture_10/Client.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550898503034" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550899657933" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.codingblocks.lecture_21" />
       <recent name="com.codingblocks.lecture_18" />
       <recent name="com.codingblocks.Lecture_17" />
       <recent name="com.codingblocks.lecture_16" />
       <recent name="com.codingblocks.lecture_15" />
-      <recent name="com.codingblocks.lecture_13" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/codingblocks/lecture_14/extras" />
@@ -352,7 +337,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.30307466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3023426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -361,7 +346,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.57881135" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.57622737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39793283" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,13 +381,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_13/QueueUsingStackInsert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6314">
@@ -747,10 +725,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_21/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_21/AdjMapGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="77" column="31" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
+        <state relative-caret-position="244">
+          <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
           <folding>
             <element signature="e#234#235#0" expanded="true" />
             <element signature="e#265#266#0" expanded="true" />
@@ -758,10 +743,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_21/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/codingblocks/lecture_21/AdjMapGraphWeighted.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="-794">
+          <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
         </state>
       </provider>
     </entry>
