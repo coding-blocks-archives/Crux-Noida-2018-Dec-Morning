@@ -19,6 +19,7 @@ public class AdjListGraph <T>{
         Vertex e_v = find(end);
         if (s_v != null && e_v != null){
             s_v.neighbours.add(e_v);
+            e_v.neighbours.add(s_v);
         }
     }
 
