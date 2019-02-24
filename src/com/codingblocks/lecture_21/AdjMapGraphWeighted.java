@@ -212,6 +212,41 @@ public class AdjMapGraphWeighted<T> {
         return graph;
     }
 
+    public int prims(){
+        PriorityQueue<Edge> queue = new PriorityQueue<>();
+        Set<Vertex> visited = new HashSet<>();
+
+        Vertex s_vertex = vertexHashMap.values().iterator().next();
+        visited.add(s_vertex);
+
+        for (Vertex padosi : s_vertex.neighbours.values()) {
+            Edge edge = new Edge(s_vertex, padosi, s_vertex.weights.get(padosi.value));
+            queue.add(edge);
+        }
+
+        int mst = 0;
+
+        while (!queue.isEmpty()){
+            Edge front = queue.remove();
+            if (visited.contains(front.second)){
+                continue;
+            }
+
+            mst += front.weight;
+
+            Vertex unvisited = front.second;
+
+            for (Vertex padosi : unvisited.neighbours.values()) {
+                visited.add(padosi);
+                Edge edge = new Edge(unvisited, padosi, unvisited.weights.get(padosi.value));
+                queue.add(edge);
+            }
+
+        }
+
+        return mst;
+    }
+
     public int mst(){
         ArrayList<Edge> edges = new ArrayList<>();
 
